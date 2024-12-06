@@ -46,7 +46,7 @@ void update()
 
 void render()
 {
-  SpritesU::drawOverwrite(24, 24, test, frameNumber);
+  SpritesU::drawPlusMask(24, 24, test, frameNumber);
 
   Sprites::drawExternalMask(96, 48, player, playerMask, frameNumber, 0);
 
